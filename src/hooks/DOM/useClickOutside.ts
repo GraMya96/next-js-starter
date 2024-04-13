@@ -1,6 +1,6 @@
 import { useEffect, RefObject } from 'react';
 
-export const useOffsetClick = (
+export const useClickOutside = (
 	ref: RefObject<HTMLElement>,
 	callback: () => void
 ) => {

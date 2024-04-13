@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef } from 'react';
-import { useCustomRouter } from '@/hooks/useCustomRouter';
+import { useCustomRouter } from '@/hooks/navigation/useCustomRouter';
 import { cn } from '@/lib/utils/cn';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { Input } from '@/components/ui/input';
